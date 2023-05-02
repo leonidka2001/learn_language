@@ -1,6 +1,8 @@
 term;explanation;source
-Electricity; Электрический ток ;db
-Resistance; Сопротивление ;db
-Inductance; Индуктивность ;db
 Capacity; Ёмкость ;db
+Electricity; Электрический ток ;db
+Inductance; Индуктивность ;db
+Mass;Масса;user
+Resistance; Сопротивление ;db
+Velocity;Скорость;user
 Сonductivity; Проводимость ;db
