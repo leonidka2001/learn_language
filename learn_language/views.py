@@ -11,9 +11,16 @@ def terms_list(request):
     terms = terms_work.get_terms_for_table()
     return render(request, "term_list.html", context={"terms": terms})
 
+def lesson_list(request):
+    terms = terms_work.get_terms_for_table()
+    return render(request, "lesson_list.html", context={"terms": terms})
+
 
 def add_term(request):
     return render(request, "term_add.html")
+
+def add_lesson(request):
+    return render(request, "lesson_add.html")
 
 
 def send_term(request):

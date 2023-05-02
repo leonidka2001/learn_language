@@ -1,0 +1,25 @@
+{% extends "base_page.html" %}
+
+{% block page-title %}
+{% if success %}
+<span class="blue-text text-darken-2">Слово добавлено!</span>
+{% else %}
+<span class="blue-text text-darken-2">Ошибка добавления</span>
+{% endif %}
+{% endblock %}
+
+{% block page-lead %}{% endblock %}
+
+{% block content %}
+<div class="container" id="term-form-result">
+
+    <h3 class="pb-2 border-bottom">Комментарий</h3>
+    <p>{{ comment }}</p>
+
+    <h3 class="pb-2 border-bottom">Что можно сделать?</h3>
+    <ul>
+        <li>Заполнить <a href="/add-term">форму</a> ещё раз,</li>
+        <li>Вернуться на <a href="/">главную</a></li>
+    </ul>
+</div>
+{% endblock %}
