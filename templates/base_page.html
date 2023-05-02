@@ -12,15 +12,15 @@
 </head>
 <body>
     <header>
-      <nav class="light-blue lighten-1" role="navigation">
+      <nav class="light-green lighten-1" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="/" class="brand-logo">
                 <img src="{% static 'favicon.ico' %}" alt="текст" width="32" height="32"/>
-                <span>My project</span>
+                <span>Learn Language</span>
             </a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="/lessons">Уроки</a></li>
-            <li><a href="/words">Слова</a></li>
+            <li><a href="/lessons">Занятия</a></li>
+            <li><a href="/words">База слов</a></li>
           </ul>
 
           <ul id="nav-mobile" class="sidenav">
@@ -47,7 +47,7 @@
         {% block content %}{% endblock %}
     </main>
 
-    <footer class="page-footer orange" style="position:fixed;bottom:0;left:0;width:100%;">
+    <footer class="light-green lighten-1">
       <div class="container">2023</div>
     </footer>
 </body>
